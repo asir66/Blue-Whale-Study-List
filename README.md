@@ -1,2 +1,67 @@
 # Blue-Whale-Study-List
-This was a sudden idea — to gather and organize everyone’s learning resources in one place.
+> This was a sudden idea — to gather and organize everyone’s learning resources in one place. 
+>
+> Simplicity is the ultimate principle; the best tool is the one you can use right away. So at the beginning, this list will only contain a single README document. Later, it might evolve into a wiki, or maybe an mdBook. Or perhaps it’ll fade away and get lost somewhere in the vast sea of GitHub repositories — that all depends on everyone.
+
+总的来说我也不知道如何将这些知识点分解开来。只能将大家的学习资源统一统一，以后开个留言板分享吧。
+
+# 一些挺有用的网站
+
+- [CTFHUB](https://www.ctfhub.com/#/index)
+  一个学习CTF的小站，里面有一个技能树，可以点亮他作为学习的路子。并且很关键他里面会统计最近的比赛，可以和队友组团打一打（之前有社团成员打了这种比赛赢了一个大疆无人机）
+- [BUUOJ](https://buuoj.cn/)
+  BUU靶场，久负盛名。应该是流传最广的CTF靶场了
+- [攻防世界](https://adworld.xctf.org.cn/home/index)
+  似乎和XCTF有关系，当初也是当作靶场用的。听说战队大厅还有Blue-Whale，但是不知道负责人是谁
+- [BUGKU](https://ctf.bugku.com/)
+  靶场，比较喜欢的是这里可以做AWD。做题可以换鼠标垫
+- [CTF-WIKI](https://ctf-wiki.org/)
+  同样是久负盛名，但是我觉得PWN写的挺好的，但是Web部分写的依托，所以学Web攻防的别看这个了
+
+# Web攻防相关
+
+学Web安全的，该说不说，要应该把OWASP TOP 10漏洞了解下（至少面试官问起来你知道）
+
+- [2025 OWASP TOP 10](https://owasp.org/www-project-top-ten/)
+
+然后就可以去将这些常见漏洞原理和利用方式学一学
+
+- [SQL注入教程-橙子科技](https://www.bilibili.com/video/BV1c34y1h7So/?share_source=copy_web&vd_source=3057a8c490897b7f3dc3311de6aa625f)
+  该说不说，橙子科技SSTI讲得不错的
+- [SSTI教程-橙子科技](https://www.bilibili.com/video/BV1tj411u7Bx/?spm_id_from=333.1387.upload.video_card.click&vd_source=6ca6bce6ab790fe02889f85c0ef90f8a)
+
+注：卖课的一律不用吊他，白嫖就够了
+
+## 好用的工具
+
+- [BurpSuit](https://portswigger.net/burp)
+  最好用的一集，基本上一个工具能解决所有问题，而且你们可能不知道BurpSuit是有官方学习靶场的：https://portswigger.net/web-security
+
+- [sqlmap](https://github.com/sqlmapproject/sqlmap)
+
+  sql注入的工具，单纯只会用工具是脚本小子，但是工具都用不熟就很尬了
+
+
+
+# 二进制安全
+
+## 如何逆向
+
+逆向可以去逆CTF题，但是那不够有趣。用来学习正好，还能找到答案看看别人的先进手法。但是我们是不是也可以找一个社区或者社团内交流。去逆一些病毒或者软件吧（记得用虚拟机）
+
+- [52破解](https://www.52pojie.cn/)
+  上古神站，你甚至能找到
+
+## 如何pwn
+
+我始终是觉得pwn专题是CTF-WIKI写得最好的一个板块
+
+# 看些好玩的
+
+别老盯着CTF，安全不只CTF。可以去下面看点技术文章
+
+- [奇安信攻防社区](https://forum.butian.net/)
+- [FreeBuf](https://www.freebuf.com/)
+
+待补充
+
