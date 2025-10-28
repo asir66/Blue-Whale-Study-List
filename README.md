@@ -34,12 +34,53 @@
 
 ## 好用的工具
 
-- [BurpSuit](https://portswigger.net/burp)
-  最好用的一集，基本上一个工具能解决所有问题，而且你们可能不知道BurpSuit是有官方学习靶场的：https://portswigger.net/web-security
-
-- [sqlmap](https://github.com/sqlmapproject/sqlmap)
+- #### [BurpSuite](https://portswigger.net/burp)
+  
+  最好用的一集，基本上一个工具能解决所有问题，而且你们可能不知道BurpSuite是有官方学习靶场的：https://portswigger.net/web-security
+  
+- #### yakit
+  
+  功能定位：一体化/集成型渗透辅助平台，集成抓包、漏洞检测、fuzzer、插件生态，类似把多种功能“打包”的桌面工具。
+  
+- #### hackbar
+  
+- 功能：浏览器插件（或小工具栏），用于快速拼接/测试常见 web payload（编码/解码、SQL、XSS、路径遍历等）。
+  
+- #### [sqlmap](https://github.com/sqlmapproject/sqlmap)
 
   sql注入的工具，单纯只会用工具是脚本小子，但是工具都用不熟就很尬了
+  
+- #### fenjing
+
+  功能定位：针对 Jinja2 SSTI 的自动化绕 WAF/POC 工具，CTF/靶场常见的 SSTI 破解脚本。
+  
+  常见用途：自动化尝试 Jinja SSTI 绕过与利用、批量测试表单/输入点、在 CTF 中快速验证攻击链。
+  
+- #### tplmap
+
+  功能：自动化检测并利用 **Server-Side Template Injection（SSTI）/模板注入** 的工具，能自动识别模板引擎并尝试 payload。
+  
+- #### 蚁剑
+
+  功能：一个中文社区常用的**WebShell 管理器**（图形化管理、文件操作、执行命令、数据库管理等）。
+  
+- #### Gopherus
+
+  功能：围绕 **gopher 协议** 做攻击利用的工具（在 SSRF/文件写入/远程请求场景里用 gopher 协议触发特殊请求/利用）。
+  
+- #### PHPstudy
+
+  功能：PHP 本地集成环境（Windows 上常见），包含 Apache/Nginx、PHP、MySQL 等一键安装和配置。
+  
+- #### fscan
+
+  功能（常见含义）：快速资产/端口/服务指纹扫描工具（社区里有多个名为 fscan 的实现，功能侧重点不同）。
+  
+- #### dirsearch
+
+  功能：基于字典的 Web 目录/文件发现工具（类似 gobuster、dirb），针对 URL 做快速爆破查找隐藏页面/目录。
+  
+  
 
 
 
