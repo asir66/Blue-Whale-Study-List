@@ -24,7 +24,7 @@
 
 - [2025 OWASP TOP 10](https://owasp.org/www-project-top-ten/)
 
-然后就可以去将这些常见漏洞原理和利用方式学一学
+    然后就可以去将这些常见漏洞原理和利用方式学一学
 
 - [SQL注入教程-橙子科技](https://www.bilibili.com/video/BV1c34y1h7So/?share_source=copy_web&vd_source=3057a8c490897b7f3dc3311de6aa625f)
   该说不说，橙子科技SSTI讲得不错的
@@ -106,3 +106,7 @@
 
 待补充
 
+
+# 留存
+
+- [25纳新每日一题](DailyQuestions/)
