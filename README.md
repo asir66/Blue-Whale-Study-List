@@ -113,7 +113,17 @@ PS:紧跟时事，多去复现新出现的cve，很多比赛大概率会考。
 
 待补充
 
+## Linux - 拥抱自由
+
+- [USTC-LUG](https://lug.ustc.edu.cn/)  
+  什么时候 OUC 能有自己的 LUG 呢？🤔
+- [PWN-College](https://pwn.college/linux-luminarium/)
+- [Arch Linux Wiki](https://www.archlinux.org)
 
 # 留存
 
 - [25纳新每日一题](DailyQuestions/)
+
+# 杂项
+
+- [WEB 学习小建议](Others/WEB方向之寒假干点啥.md)
