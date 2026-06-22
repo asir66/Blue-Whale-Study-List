@@ -98,11 +98,27 @@ PS:紧跟时事，多去复现新出现的cve，很多比赛大概率会考。
 
 ## 如何pwn
 
-我始终是觉得pwn专题是CTF-WIKI写得最好的一个板块
+我始终是觉得pwn专题是CTF-WIKI写得最好的一个板块。
+pwn学习是需要一点点门槛的
 
-## pwn知识点
+- C语言（要会指针）
+- 汇编 （要大概看得懂怎么回事）
+- 内存的大概结构，很多的漏洞都是在内存上动手脚
 
-待补充
+### 基础入门建议
+- [CSAPP (深入理解计算机系统)](https://csapp.cs.cmu.edu/) — 理解计算机底层运行原理，可以找找中文的看看
+- [九曲阑干 CSAPP 视频讲解](https://www.bilibili.com/video/BV1cD4y1D7uR) — 讲得很不错，配合书看效果更好
+- [CTF-Wiki PWN 板块](https://ctf-wiki.org/pwn/readme/) — PWN 知识体系最完整的开源文档
+### 常用工具
+
+- **pwntools** — `from pwn import *` 一切的开端
+- **pwndbg** — GDB 插件，PWN 调试必备
+- **IDA Pro / Ghidra** — 静态分析与反编译
+- **checksec** — 一键查看二进制保护开关
+- **ROPgadget** — 搜索 ROP gadget 片段
+- **one_gadget** — libc 里一键 getshell 的 magic 地址
+- **LibcSearcher** — 根据泄露地址匹配远程 libc 版本
+
 
 # 看些好玩的
 
@@ -127,3 +143,4 @@ PS:紧跟时事，多去复现新出现的cve，很多比赛大概率会考。
 # 杂项
 
 - [WEB 学习小建议](Others/WEB方向之寒假干点啥.md)
+- [PWN 学习小建议](Others/PWN方向之暑假干点啥.md)
